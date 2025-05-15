@@ -3,6 +3,7 @@ body {
     background-color: rgb(252, 251, 251);
 }
 
+/* Titulos principal com nome */
 h1 {
     color: #15158f;
     text-align: center;
@@ -13,7 +14,7 @@ h1 {
     font-size: 35px;
     padding: 5px 10px;
 }
-
+/*Titulos com fundo cinza*/
 h2 {
     font-size: 32px;
     background-color: rgb(179, 176, 176);
@@ -26,13 +27,52 @@ h2 {
     
 }
 
+/*Descrição embaixo do titulo principal*/
 .p1{
     text-align: center;
     margin-bottom: 30px;
+    font-size: 19px;
 }
 
+/*Descrição embaixo dos titulos secundarios*/
 .p2{
     
     margin: 20px 34px 30px;
     width: 95%;
+    font-size: 19px;
+}
+
+/*Css das empresas*/
+.profissao{
+    color: rgb(3, 3, 209);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/*Descrição periodo*/
+.descricao-periodo{
+    color: #525151;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/*O que fez no periodo*/
+.descricao{
+    color: #252525;
+    font-weight: bold;
+    font-size: 17px;
+    margin: -10px 34px 30px;
+}
+
+/*O que fez na profissão*/
+.p-descricao{
+    margin: -10px 34px 30px;
+    width: 95%;
+}
+
+/*Borda esquerda nas profissões*/
+.experiencia{
+    border-left: 4px solid #0d0d46;
+    border-radius: 5px;
+    margin: 10px 34px;  
 }

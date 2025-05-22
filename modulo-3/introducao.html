@@ -3,6 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Trabalhando com imagens</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: 22px;
+            width: 700px;
+            margin: auto; 
+            text-align: justify;
+            background-image: url(imagens/bg.jpg);
+            background-repeat: repeat-y;
+            background-size:400px;
+            background-attachment: fixed;
+        }
+
+        p{
+            line-height: 1.5;
+        }
+        .img-logo{
+            width: 400px;
+        }
+
+        .img-html{
+            float: left;
+        }
+
+        .img-css{
+            float: right;
+        }
+    </style>
 </head>
 <body>
     
@@ -10,8 +39,29 @@
 
     <h2>Imagens vetoriais vs bitmap</h2>
 
-    <img src="imagens/logo_ser-frontend-ico-transparente.png" alt="logotipo muito louca">
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" class="img-logo" alt="logotipo muito louca">
     <br>
-    <img style="width: 400px;" src="imagens/logo_ser-frontend-ico.svg" alt="logotipo muito louca">
+    <img src="imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo muito louca">
+
+    <h2>Imagens transparentes</h2>
+
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" alt="">
+
+    <h2>Gif Animado</h2>
+
+    <img src="imagens/walk.gif" class="img-logo" alt="mulher anda">
+    
+    <h2>Float</h2>
+
+    <img src="imagens/html5.png" alt="logo HTML5" class="img-html">
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo expedita quod eos quis cumque veritatis delectus nam dignissimos voluptatibus modi itaque officiis, consequuntur distinctio totam mollitia? Asperiores mollitia doloribus amet!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magnam voluptate vel consectetur fugiat voluptatum rerum, mollitia voluptas dolor iure, aliquid pariatur, quis quasi nobis! Quibusdam debitis sunt incidunt quasi esse, quam maxime cum beatae modi molestias, consectetur suscipit ratione porro dolorem corrupti dolor ducimus temporibus vero tempora vitae et, ut reiciendis velit nemo. Autem, illum enim ipsa nesciunt asperiores suscipit omnis quae id veritatis eaque? Deleniti quis blanditiis voluptate facilis! Voluptas ut porro itaque autem natus fuga esse ex.</p>
+<br>
+    <img src="imagens/css3.png" alt="Logotipo CSS3" class="img-css">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo expedita quod eos quis cumque veritatis delectus nam dignissimos voluptatibus modi itaque officiis, consequuntur distinctio totam mollitia? Asperiores mollitia doloribus amet!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magnam voluptate vel consectetur fugiat voluptatum rerum, mollitia voluptas dolor iure, aliquid pariatur, quis quasi nobis! Quibusdam debitis sunt incidunt quasi esse, quam maxime cum beatae modi molestias, consectetur suscipit ratione porro dolorem corrupti dolor ducimus temporibus vero tempora vitae et, ut reiciendis velit nemo. Autem, illum enim ipsa nesciunt asperiores suscipit omnis quae id veritatis eaque? Deleniti quis blanditiis voluptate facilis! Voluptas ut porro itaque autem natus fuga esse ex.</p>
 </body>
 </html>

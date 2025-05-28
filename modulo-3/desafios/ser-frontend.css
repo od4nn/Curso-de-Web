@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: rgb(136, 133, 133);   
+    background-color: rgb(181, 176, 176);   
     margin: 0;
 }
 
@@ -59,12 +59,14 @@ h1{
     font-weight: bold;
     font-size: 70px;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 90px;
 }
 
 h3{
-    padding-top:20px;
+    padding:10px;
+    margin: 10px;
+    background-color: rgb(219, 219, 219);
+    border-bottom: 2px solid rgba(176, 175, 175, 0.637);
 }
 
 .p-carreira{
@@ -74,87 +76,32 @@ h3{
     text-align: center;
     width: 32%;
     margin: 80px auto;
+    
     border-bottom: 3px solid rgb(179, 176, 176);
 }
 
-/* fundo cinza padrão para o resto da página 
-body {
-    font-family: sans-serif;
-    background-color: rgb(136, 133, 133);
-    overflow-x: hidden;
-    margin: 0;
+.article-fundo{
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 23px;
+    padding: 1px;
+    width: 97%;
 }
 
-
-header {
-    background-image: url(imagens/bg-3.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    color: white;
-    padding-bottom: 80px;  adiciona altura suficiente pro conteúdo 
+.article-fundo p{
+    padding: 10px;
 }
 
-
-ul {
-    padding-left: 0;
-    margin-top: 30px;
-    width: 95%;
+.saiba-mais a:hover{
+background-color: rgb(150, 148, 148);
 }
 
-li {
-    list-style-position: inside;
+.saiba-mais{
+    padding-bottom: 15px;
 }
-
-a {
-    text-decoration: none;
+.saiba-mais a{
+    background-color: rgb(201, 197, 197);
+    padding: 7px;
+    margin: 10px;
+    text-decoration: underline;
 }
-
-.menu {
-    margin: -29px auto;
-    margin-left: 42%;
-    width: 95%;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 30px;
-}
-
-.menu li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 6px;
-}
-
-.menu a {
-    color: white;
-    background-color: rgb(102, 102, 102);
-    border: 1px solid white;
-    border-radius: 1px;
-    padding: 18px;
-    font-size: 19px;
-}
-
-h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 220px;
-}
-
-h3 {
-    padding-top: 20px;
-    color: black;  fica visível no fundo cinza 
-    text-align: center;
-}
-
-.p-carreira {
-    color: white;
-    background-color: rgba(34, 33, 33, 0.74);
-    padding: 0.5px;
-    text-align: center;
-    width: 27%;
-    margin: auto;
-    border-bottom: 3px solid rgb(179, 176, 176);
-}
- */

@@ -7,10 +7,10 @@ body{
 header{
     background-image: url(imagens/bg-3.jpg);
     background-size:cover;
-    background-position: 30%;
-    background-repeat: no-repeat;
+    background-position: center;
     overflow-x: hidden;
-    background-size: 100%;
+    height: auto;
+    padding-bottom: 20px;
 }
 ul{
     padding-left: 0;
@@ -85,7 +85,7 @@ h3{
     margin: 10px auto;
     margin-bottom: 23px;
     padding: 1px;
-    width: 97%;
+    width: 95%;
 }
 
 .article-fundo p{
@@ -94,6 +94,15 @@ h3{
 
 .saiba-mais a:hover{
 background-color: rgb(150, 148, 148);
+color: blue;
+}
+
+article a:visited{
+    color: rgb(78, 78, 231);
+}
+
+header a:visited{
+    color: rgb(242, 242, 242);
 }
 
 .saiba-mais{
@@ -104,4 +113,16 @@ background-color: rgb(150, 148, 148);
     padding: 7px;
     margin: 10px;
     text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(48, 47, 47, 0.708);
+}
+
+footer p{
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
 }

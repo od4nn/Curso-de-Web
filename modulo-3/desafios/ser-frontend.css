@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: rgb(136, 133, 133);   
-    /*margin 0*/
+    margin: 0;
 }
 
 header{
@@ -28,7 +28,7 @@ a{
 
 .menu{
     margin: -29px auto;
-    margin-left: 42%;
+    margin-left: 40%;
     width: 95%;
     text-align: center;
     padding-top: 25px;
@@ -42,13 +42,16 @@ a{
     padding: 6px;
 }
 
+.menu a:hover{
+ background-color:#222121bd;
+}
 .menu a{
     color: white;
     background-color: rgb(102, 102, 102);
     border: 1px solid white;
     border-radius: 1px;
     padding: 18px;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 h1{
@@ -66,11 +69,11 @@ h3{
 
 .p-carreira{
     color: white;
-    background-color: rgba(34, 33, 33, 0.74);
+    background-color: #222121bd;
     padding: 0.5px;
     text-align: center;
-    width: 27%;
-    margin: auto;
+    width: 32%;
+    margin: 80px auto;
     border-bottom: 3px solid rgb(179, 176, 176);
 }
 
